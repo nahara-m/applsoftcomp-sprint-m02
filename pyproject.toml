@@ -1,11 +1,11 @@
 [project]
-name = "project-name"
+name = "applsoftcomp-sprint-m02"
 version = "0.1.0"
 description = "Project description"
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-    {name = "Sadamori Kojaku"},
+    {name = "Narrara M. (forked from original by Dr. Kojaku)"},
 ]
 license = {file = "LICENSE"}
 
@@ -20,6 +20,7 @@ dependencies = [
     "marimo>=0.16.1",
     "scikit-learn>=1.0.0",
     "nvitop>=1.5.3",
+    "umap-learn>=0.5.11",
 ]
 
 [project.optional-dependencies]
